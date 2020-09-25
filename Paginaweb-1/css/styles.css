@@ -360,7 +360,8 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: 'Raleway', sans-serif;  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   line-height: 1.2;
 }
 
@@ -622,6 +623,12 @@ pre code {
   padding-right: 0.75rem;
   padding-left: 0.75rem;
 }
+
+ .titulo {
+   font-family: 'Rye', cursive;
+   color: #ffd760;
+   font-size: 3rem;
+ }
 
 .col {
   flex-basis: 0;
@@ -2469,9 +2476,9 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-  color: #fff;
+  color: #ffd760;
   background-color: #ffd760;
-  border-color: #fff;
+  border-color: #ffd760;
 }
 .btn-primary:hover {
   color: #fff;
@@ -9758,6 +9765,10 @@ button.bg-dark:focus {
 .text-lowercase {
   text-transform: lowercase !important;
 }
+.text-uppercase{
+  color: black;
+
+}
 
 .text-titulo {
   text-transform: uppercase !important;
@@ -10157,7 +10168,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-color: #000000;
+  background-image: url("../assets/img/fondo2.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10172,10 +10183,10 @@ header.masthead .masthead-subheading {
   font-family: 'Raleway', sans-serif;
 }
 header.masthead .masthead-heading {
-  font-size: 4.25rem;
+  font-size: 3rem;
   font-weight: 900;
   line-height: 3.25rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-family: 'Rye', cursive;
 }
 
@@ -10230,11 +10241,12 @@ header.masthead .masthead-heading {
   text-align: center;
   background-color: #fff;
 }
-#portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
+#portfolio .portfolio-item .portfolio-caption .nombre-bebida {
   font-size: 1.5rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   margin-bottom: 0;
+  color: #333c4a;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
   font-style: italic;
@@ -10255,7 +10267,7 @@ header.masthead .masthead-heading {
   line-height: 3rem;
 }
 .portfolio-modal .modal-content p.item-intro {
-  font-style: italic;
+  font-style: normal;
   margin-bottom: 2rem;
   font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
